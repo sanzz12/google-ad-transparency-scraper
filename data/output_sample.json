@@ -1,0 +1,109 @@
+[
+  {
+    "advertiserId": "AR13129532367502835713",
+    "creativeId": "CR17788744295004504065",
+    "advertiserName": "CHECK24 GmbH",
+    "adType": "Video",
+    "targeting": {
+      "demographics": { "included": true, "excluded": false },
+      "locations": { "included": true, "excluded": true },
+      "contextSignals": { "included": true, "excluded": true },
+      "customerLists": { "included": true, "excluded": false },
+      "interests": { "included": true, "excluded": false }
+    },
+    "stats": {
+      "dateRange": {
+        "startDate": "2023-03-01T00:00:00.000Z",
+        "endDate": "2024-12-06T00:00:00.000Z"
+      },
+      "impressions": {
+        "total": { "min": "100,000", "max": "125,000" },
+        "byRegion": [
+          {
+            "regionName": "Germany",
+            "impressions": { "min": "100,000", "max": "125,000" },
+            "byPlatform": [
+              {
+                "platformName": "YouTube",
+                "impressions": { "min": "100,000", "max": "125,000" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "variations": [
+      {
+        "youtubeMetadata": {
+          "adId": "DXgwjxGfuGg",
+          "youtubeUrl": "https://www.youtube.com/watch?v=DXgwjxGfuGg",
+          "ctaUrl": "https://handyvertrag.check24.de/handy-uebersicht?promotion=black-week"
+        }
+      },
+      {
+        "youtubeMetadata": {
+          "adId": "B_kyndl0ArQ",
+          "youtubeUrl": "https://www.youtube.com/watch?v=B_kyndl0ArQ",
+          "ctaUrl": "https://handyvertrag.check24.de/handy-uebersicht?promotion=black-week"
+        }
+      }
+    ]
+  },
+  {
+    "advertiserId": "AR00000000000000000001",
+    "creativeId": "CR00000000000000000001",
+    "advertiserName": "Sample Brand International",
+    "adType": "Image",
+    "targeting": {
+      "demographics": { "included": true, "excluded": false },
+      "locations": { "included": true, "excluded": false },
+      "contextSignals": { "included": false, "excluded": false },
+      "customerLists": { "included": false, "excluded": false },
+      "interests": { "included": true, "excluded": false }
+    },
+    "stats": {
+      "dateRange": {
+        "startDate": "2024-01-10T00:00:00.000Z",
+        "endDate": "2024-03-01T00:00:00.000Z"
+      },
+      "impressions": {
+        "total": { "min": "50,000", "max": "75,000" },
+        "byRegion": [
+          {
+            "regionName": "United States",
+            "impressions": { "min": "30,000", "max": "45,000" },
+            "byPlatform": [
+              {
+                "platformName": "YouTube",
+                "impressions": { "min": "20,000", "max": "30,000" }
+              },
+              {
+                "platformName": "Display",
+                "impressions": { "min": "10,000", "max": "15,000" }
+              }
+            ]
+          },
+          {
+            "regionName": "Canada",
+            "impressions": { "min": "20,000", "max": "30,000" },
+            "byPlatform": [
+              {
+                "platformName": "YouTube",
+                "impressions": { "min": "10,000", "max": "15,000" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "variations": [
+      {
+        "youtubeMetadata": {
+          "adId": "Z1Yd7upQsXY",
+          "youtubeUrl": "https://youtu.be/Z1Yd7upQsXY",
+          "ctaUrl": "https://www.samplebrand.com/campaign/winter-sale"
+        }
+      }
+    ]
+  }
+]
